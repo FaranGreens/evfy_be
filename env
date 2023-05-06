@@ -1,7 +1,7 @@
 CONNECTION_URL = mongodb+srv://faran:faran@cluster0.hzctxpb.mongodb.net/evfyAssignment?retryWrites=true&w=majority
 JWT_AUTH_TOKEN = evfy_Assignment
 DEV_SERVER = http://localhost:8080
-PROD_SERVER = http://13.233.106.225/8080
+PROD_SERVER = http://13.233.106.225:8080
 
 MAILGUN_API = 74e93a1be251514616f84a5a9ca7b442-102c75d8-46976024
 MAILGUN_DOMAIN = sandbox8741412131c94adeb4734ddbd7241d77.mailgun.org

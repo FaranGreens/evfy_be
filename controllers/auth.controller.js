@@ -71,7 +71,7 @@ async function resetLink(email) {
     };
 
     const token = jwt.sign(payload, new_secret, { expiresIn: "2m" });
-    const link = `${process.env.DEV_SERVER}/user/reset-password/${user._id}/${token}`;
+    const link = `${process.env.PROD_SERVER}/user/reset-password/${user._id}/${token}`;
     // console.log(link);
 
     //mail logic
